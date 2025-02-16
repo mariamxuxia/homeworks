@@ -1,4 +1,3 @@
-from turtle import*
 
 print("cemi saxelia mariami")
 print("cemi dis saxelia nuca")
