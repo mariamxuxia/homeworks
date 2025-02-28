@@ -1,4 +1,4 @@
-from turtle import*
+
 
 print("andria kobaxize")
 print("andria facacia")
