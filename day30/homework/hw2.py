@@ -1,2 +1,6 @@
-#2) დაწერეთ რა არის ფუნქცია, რისთვის ვიყენებთ, რამდენი ტიპის არსებობს, რა არის პარამეტრები, არგუმენტები და დაბრუნება (return)
-#process
+list = ["Sport", "Food", "Telephone", "Name", "House"]
+Index = int(input('Enter number: '))
+if Index >= len(list):
+    print("gurami error")
+else:
+    print(list[Index])

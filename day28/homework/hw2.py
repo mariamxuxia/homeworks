@@ -1,3 +1,3 @@
-#2) შემოიტანეთ სიტყვა input-ით და დაბეჭდეთ ის პატარა ასოებით
-word=input("hello")
-print=(word.lower())
+list = ["gio", "nika", 100, 1000, 10000]
+list2 = [10, 20]
+print(list + list2)
