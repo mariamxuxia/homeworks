@@ -1,0 +1,19 @@
+#goa{
+    text-decoration:overline dashed rgb(118, 18, 18) ;
+}
+#goa1{
+    text-decoration: underline wavy purple;
+}
+#goa2{
+    text-align: justify;
+    text-decoration: line-through dashed rgb(72, 72, 184);
+}
+#goa3{
+    text-shadow: 5px 4px rgb(30, 28, 110);
+}
+#goa4{
+    text-shadow: 7px 50px 2348px rgb(7, 56, 37);
+}
+#goa5{
+    text-shadow: 90px 100px 200px rgb(38, 5, 5);
+}
