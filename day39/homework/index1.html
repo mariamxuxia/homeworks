@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            text-align: center;
+            border: 1px solid rgb(120, 150, 212);
+            background-color: rgb(124, 186, 241);
+        }
+        tr:nth-child(odd) {
+            background-color: rgb(82, 108, 152);
+        }
+        tr:active{
+            background-color:gray;
+        }
+        th, td {
+            border: 2px solid rgb(97, 102, 189);
+            text-align: center;
+        }
+        th {
+            background-color: rgb(40, 57, 102);
+        }
+        tr {
+            cursor:pointer
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>first name</th>
+                <th>last name</th>
+                <th>position</th>
+                <th>salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>james</td>
+                <td>jeo</td>
+                <td>CEO</td>
+                <td>$1300</td>
+            </tr>
+
+            <tr>
+                <td>kate</td>
+                <td>harns</td>
+                <td>desinger</td>
+                <td>$1000</td>
+            </tr>
+
+            <tr>
+                <td>bryan</td>
+                <td>brian</td>
+                <td>team leader</td>
+                <td>$700</td>
+            </tr>
+
+            <tr>
+                <td>lesely</td>
+                <td>prcnic</td>
+                <td>author</td>
+                <td>$500</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
